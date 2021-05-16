@@ -25,7 +25,7 @@ dependencies {
 - `env`: 스프링의 ConfigurableEnvironment로 부터 properties를 보여줌
 - `flyway`
 - `health`: 애플리케이션의 헬스 정보를 보여줌
-- `httptrace`: HTTP 추적 정보를 보여줌(디폴트 마지막 100 HTTP 요청/응답 반환)
+- `httptrace`: HTTP 추적 정보를 보여줌(디폴트 마지막 100 HTTP 요청/응답 반환) **HttpTraceRepository** 빈 등록해야 사용 가능
 - `info`: 
 - `integrationgraph`
 - `loggers`: 애플리케이션의 로거 정보를 보여주고 수정
