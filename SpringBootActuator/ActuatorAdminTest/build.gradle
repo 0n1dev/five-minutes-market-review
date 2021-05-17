@@ -13,10 +13,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version: '2.4.0'
+    implementation group: 'de.codecentric', name: 'spring-boot-admin-starter-server', version: '2.4.0'
 }
 
 test {
