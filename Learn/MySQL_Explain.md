@@ -241,6 +241,8 @@ explain [extended] select ... from ... where ...
         WHERE u.user_name = #{userName}
 ```
 
+![explain12](./img/explain12.png)
+
 - `type`: ALL
 - `Extra`: `Using where`
 
