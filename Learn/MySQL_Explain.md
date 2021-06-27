@@ -245,3 +245,9 @@ explain [extended] select ... from ... where ...
 - `Extra`: `Using where`
 
 -> 개선 필요함 `name` 컬럼에 인덱스 지정 필요해 보임
+
+
+## 참고
+
+https://denodo1.tistory.com/306
+https://nomadlee.com/mysql-explain-sql/
